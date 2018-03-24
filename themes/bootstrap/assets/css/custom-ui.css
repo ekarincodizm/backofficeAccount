@@ -1,0 +1,130 @@
+/** form signin **/
+.form-signin {
+    max-width: 300px;
+    padding: 5px 20px 20px;
+    margin: 20px auto 20px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+    font-size: 12px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+}
+/** end form signin **/
+
+/** text color helper**/
+.color-black{
+    color: #222222;
+}
+
+.color-white{
+    color: #FFFFFF;
+}
+
+.color-silver{
+    color: #F1F1F1;
+}
+
+.color-silver-dark{
+    color : #777777;
+}
+
+.color-win8{
+    color: #00CCFF;
+}
+
+.color-teal{
+    color: #00A0B1;
+}
+
+.color-blue{
+    color: #2E8DEF;
+}
+.color-purple{
+    color: #A700AE;
+}
+.color-purple-dark{
+    color: #643EBF;
+}
+.color-red{
+    color: #BF1E4B;
+}
+.color-orange{
+    color: #DC572E;
+}
+.color-green{
+    color: #00A600;
+}
+.color-sky{
+    color: #0A5BC4;
+}
+/** end text color helper**/
+
+/*
+Shortcut
+*/
+.shortcuts {
+    text-align: left;	
+}
+
+.shortcuts .shortcut { 
+    width: 200px;
+    display: inline-block;
+    padding: 12px 0;
+    margin: 0 .9% 1em;
+    vertical-align: top;	
+
+    text-decoration: none;
+
+    background: #F3F3F3;
+
+    border-radius: 5px;
+    text-align: center;
+}
+
+.shortcuts .shortcut .shortcut-icon {
+    margin-top: .25em;
+    margin-bottom: .25em;
+
+    font-size: 32px;
+    color: #888;
+}
+
+.shortcuts .shortcut:hover {
+    background: #E8E8E8;
+}
+
+.shortcuts .shortcut:hover .shortcut-icon {
+    color: #f90;
+}
+
+.shortcuts .shortcut-label {
+    display: block;
+
+    font-weight: 400;
+    color: #666;
+}
+/* end shortcut */
+/* font-size */
+.fontsize-small{
+    font-size: small;
+}
+.fontsize-smaller{
+    font-size: smaller;
+}
+.fontsize-smallest{
+    font-size: 9px;
+}

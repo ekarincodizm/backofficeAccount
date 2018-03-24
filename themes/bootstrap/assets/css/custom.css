@@ -1,0 +1,93 @@
+/* 
+    Document   : custom
+    Created on : Apr 10, 2013, 10:51:51 AM
+    Author     : Anuson
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans', serif;
+    font-size: 1.5em;
+}
+/* header */
+.header{
+    background-color: #000;
+}
+/* navbar */
+.navbar{
+    margin-bottom: 0px;
+}
+.navbar-inverse .nav > li > a{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.navbar-inverse .nav > li > a:hover {
+    background-color: transparent;
+    color:  sandybrown;
+}
+.brand{
+    font-family: 'Noto Sans', serif;
+}
+/* section */
+.section{
+    
+}
+/* content */
+.content{
+
+}
+/* content-header */
+.content-header {
+    padding: 0px 0px;
+    border-bottom: 1px solid rgb(205, 205, 205);
+    background: url("../img/bg-content-header.png") repeat scroll 0% 0% rgb(233, 233, 233);
+    color: rgb(98, 98, 98);
+}
+.content-header h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans', serif;
+}
+/* content-sidebar */
+.content-sidebar{
+    font-size: 0.8em;
+}
+.content-navbar{
+    font-size: 0.8em;
+}
+/* content-breadcrumb */
+.content-breadcrumb{
+    border: 1px solid #e5e5e5;
+    position: relative;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+}
+/* content-body */
+.content-body{
+    padding: 0px 5px;
+}
+
+/**
+* Fix ios supersized
+*/
+/*Fix Supersized on iOS*/
+
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+#supersized { margin-left:0;}
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+#supersized { width:110% !important;}
+}
+
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+#supersized { margin-left:0; }
+}
